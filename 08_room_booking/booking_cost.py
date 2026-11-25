@@ -1,3 +1,4 @@
+# Room booking cost calculation
 def calculate_booking_cost(nights, nightly_rate_cents):
     """Calculate the total room charge from the stay length and nightly rate."""
     if type(nights) is not int or type(nightly_rate_cents) is not int:
