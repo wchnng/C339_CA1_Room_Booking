@@ -1,4 +1,3 @@
-# Room booking refund policy
 def is_refundable(hours_before_checkin, flexible_rate):
     """Determine whether the cancellation time and rate allow a refund."""
     if type(hours_before_checkin) is not int or type(flexible_rate) is not bool:
