@@ -4,6 +4,6 @@ def is_refundable(hours_before_checkin, flexible_rate):
         raise TypeError("invalid argument type")
     
     if hours_before_checkin < 0:
-        raise ValueError("argument outside permitted range")
+        raise ValueError("argument outside permitted ")
     
     return flexible_rate and hours_before_checkin > 48
